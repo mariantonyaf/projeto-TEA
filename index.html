@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carteirinha TEA</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: linear-gradient(to right, red, yellow, green, blue);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .documentos-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 48%;
+            text-align: left;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        #maisTexto {
+            display: none;
+        }
+        .btn {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+        .fonte {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        }
+    </style>
+    <script>
+        function toggleTexto() {
+            var maisTexto = document.getElementById("maisTexto");
+            var btnToggle = document.getElementById("btnToggle");
+            
+            if (maisTexto.style.display === "none") {
+                maisTexto.style.display = "block";
+                btnToggle.innerText = "Ler menos";
+            } else {
+                maisTexto.style.display = "none";
+                btnToggle.innerText = "Ler mais";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        Carteirinha TEA
+    </header>
+    
+    <div class="container">
+        <section id="sobre-autismo">
+            <h2>O que é o Autismo?</h2>
+            <p>O Transtorno do Espectro Autista (TEA) é um distúrbio do desenvolvimento que afeta diversas áreas do funcionamento humano, manifestando-se, geralmente, antes dos três anos de idade...</p>
+            <p id="maisTexto">As principais características incluem dificuldades na comunicação, interação social e a presença de comportamentos repetitivos e interesses restritos. Indivíduos com TEA podem apresentar desde ausência completa da fala até dificuldades em iniciar ou manter conversas. As causas do autismo ainda não são totalmente compreendidas, mas acredita-se que fatores genéticos e ambientais desempenham um papel significativo no seu desenvolvimento. O diagnóstico é clínico, baseado na observação do comportamento e no histórico do indivíduo, podendo ser complementado por avaliações multidisciplinares. Embora o autismo não tenha cura, intervenções precoces e personalizadas podem melhorar significativamente a qualidade de vida dos indivíduos, promovendo maior independência e inclusão social.</p>
+            <button id="btnToggle" class="btn" onclick="toggleTexto()">Ler mais</button>
+            <p class="fonte">Fonte: <a href="https://brasilescola.uol.com.br/saude/autismo.htm" target="_blank">Brasil Escola</a></p>
+        </section>
+    </div>
+
+    <div class="container">
+        <section id="documentos">
+            <h2>Documentos Necessários</h2>
+            <div class="documentos-container">
+                <div class="card">
+                    <h3>Para o Requerente</h3>
+                    <ul>
+                        <li>Carteira de identidade civil ou certidão de nascimento;</li>
+                        <li>CPF;</li>
+                        <li>Comprovante de residência (Pancas-ES);</li>
+                        <li>Número de telefone;</li>
+                        <li>Laudo médico com CID e CRM do médico;</li>
+                        <li>Exame de tipagem sanguínea;</li>
+                        <li>Foto 3x4 atualizada.</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Para o Cuidador</h3>
+                    <ul>
+                        <li>Carteira de identidade civil;</li>
+                        <li>CPF;</li>
+                        <li>Comprovante de residência;</li>
+                        <li>Telefone e e-mail do responsável.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
