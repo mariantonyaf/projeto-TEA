@@ -28,6 +28,17 @@ header .logo img {
     max-width: 60px;
 }
 
+header .title-desktop nav ul {
+    list-style-type: none;
+}
+
+header .title-desktop nav ul a {
+    text-decoration: none;
+    color: #0056b1;
+    font-size: 20px;
+    
+}
+
 .container {
     width: 90%;
     max-width: 1200px;
@@ -70,7 +81,7 @@ ul {
     background-color: #0056b1;
     color: #fff;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 10px;
     cursor: pointer;
     border-radius: 5px;
     margin-top: 10px;
@@ -79,7 +90,7 @@ ul {
 
 .btn:hover {
     background-color: #007bff;
-    box-shadow: 1px 1px 20px 1px gray;
+    box-shadow: 1px 1px 10px 1px gray;
 }
 
 .fonte {
