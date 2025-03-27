@@ -105,12 +105,21 @@ h2 {
     color: #003c7c;
 }
 
+.container-3 {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
 .container {
     width: 100%;
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
+    background-color: #e7f2ff;
 }
 
 h1, h3 {
