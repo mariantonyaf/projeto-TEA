@@ -171,3 +171,37 @@ ul {
         width: 100%;
     }
 }
+
+
+.autismo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.autismo-img img {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#sobre-autismo {
+    width: 60%; /* Ajuste conforme necessário */
+}
+
+@media (max-width: 768px) {
+    .autismo-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .autismo-img img {
+        width: 80%;
+    }
+
+    #sobre-autismo {
+        width: 100%;
+    }
+}
+
