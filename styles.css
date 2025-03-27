@@ -32,7 +32,7 @@ header .title-desktop nav ul {
 
 header .title-desktop nav ul a {
     text-decoration: none;
-    color: #0056b1;
+    color: #003c7c;
     font-size: 20px;
     font-family: Boldonse;
 }
@@ -72,8 +72,26 @@ header .title-desktop nav ul a {
 
 /* HEADER */
 
+.container-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.img img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
 .container {
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
@@ -124,31 +142,8 @@ ul {
     box-shadow: 1px 1px 10px 1px gray;
 }
 
-.fonte {
-    font-size: 14px;
-    margin-top: 10px;
-}
-
 @media (max-width: 768px) {
     .card {
         width: 100%;
     }
-}
-
-.container-wrapper {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-
-.img img {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    border-radius: 10px;
 }
