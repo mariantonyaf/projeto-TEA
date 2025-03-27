@@ -85,9 +85,24 @@ header .title-desktop nav ul a {
 
 .img img {
     width: 100%;
-    max-width: 600px;
+    max-width: 550px;
     height: auto;
     border-radius: 10px;
+}
+
+.container-2 {
+    width: 300px;
+    margin-right: 0px;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h2 {
+    font-size: 35px;
+    margin-bottom: 7px;
+    color: #003c7c;
 }
 
 .container {
@@ -98,7 +113,7 @@ header .title-desktop nav ul a {
     border-radius: 10px;
 }
 
-h1, h2, h3 {
+h1, h3 {
     color: #333;
 }
 
