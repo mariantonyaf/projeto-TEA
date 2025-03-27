@@ -2,16 +2,21 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: rgb(226, 226, 251);
 }
 header {
-    background: linear-gradient(to right, red, yellow, green, blue);
-    color: white;
-    padding: 20px;
-    text-align: center;
+    color: black;
+    padding: 30px;
+    text-align: justify;
     font-size: 28px;
     font-weight: bold;
 }
+
+.img {
+    height: 30px;
+    justify-content: center;
+}
+
 .container {
     width: 90%;
     max-width: 1200px;
@@ -45,8 +50,8 @@ ul {
     display: none;
 }
 .btn {
-    background-color: #007BFF;
-    color: white;
+    /*background-color: #007BFF;*/
+    color: black;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
@@ -55,7 +60,8 @@ ul {
     transition: 0.3s;
 }
 .btn:hover {
-    background-color: #0056b3;
+    /*background-color: #0056b3;*/
+    background: linear-gradient(to right, rgb(247, 125, 125), rgb(251, 251, 122), rgb(129, 249, 129), rgb(127, 127, 253));
 }
 .fonte {
     font-size: 14px;
