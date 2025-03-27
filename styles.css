@@ -90,6 +90,17 @@ header .title-desktop nav ul a {
     border-radius: 10px;
 }
 
+@media (max-width: 768px) {
+    .img img {
+        width: 80%;
+    }
+
+    .container-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 .container-2 {
     width: 300px;
     margin-right: 0px;
@@ -187,7 +198,9 @@ ul {
 }
 
 #sobre-autismo {
-    width: 60%; /* Ajuste conforme necessário */
+    width: 50%;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 @media (max-width: 768px) {
@@ -204,4 +217,7 @@ ul {
         width: 100%;
     }
 }
+
+
+
 
