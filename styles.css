@@ -37,7 +37,7 @@ header .title-desktop nav ul a {
     font-family: Boldonse;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 768px) {
     header .interface {
         display: flex;
         align-items: center;
