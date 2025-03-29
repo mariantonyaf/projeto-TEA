@@ -265,6 +265,34 @@ ul {
     display: inline-block;
 }
 
+@media (max-width: 768px) {
+    .fale-conosco {
+        flex-direction: column;
+        width: 90%;
+        text-align: center;
+    }
+
+    .info-contato {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .icone-telefone {
+        margin-bottom: 10px;
+    }
+
+    .redes-sociais {
+        justify-content: center;
+        gap: 8px;
+    }
+
+    .redes-sociais h3 {
+        margin: 0 0 8px 0;
+        width: 100%;
+    }
+}
+
 .footer {
     background: #0055A4;
     color: white;
