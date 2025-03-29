@@ -11,9 +11,18 @@ body {
 
 /* HEADER */
 
+.container-1 {
+    width: 100%;
+    max-width: 100%;
+    padding: 8px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 .interface {
     max-width: 1728px;
-    margin: 0 65px auto;
+    margin: 0 65px;
+    margin-bottom: 10px;
 }
 
 header .interface {
@@ -62,14 +71,6 @@ header .title-desktop nav ul a {
     }
 }
 
-.container-1 {
-    width: 100%;
-    max-width: 100%;
-    padding: 8px;
-    background: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
 /* HEADER */
 
 .container-wrapper {
@@ -89,6 +90,7 @@ header .title-desktop nav ul a {
 }
 
 .container-2 h2 {
+    color: #003366;
     text-align: left;
     font-size: 35px;
 }
@@ -166,6 +168,8 @@ header .title-desktop nav ul a {
 }
 
 #sobre-autismo h2 {
+    color: #003366;
+    font-size: 35px;
     padding-bottom: 50px;
     text-align: center;
 }
@@ -177,6 +181,40 @@ header .title-desktop nav ul a {
 
 #maisTexto {
     display: none;
+}
+
+@media (max-width: 768px) {
+    .container-3 {
+        padding: 50px 20px;
+    }
+
+    #sobre-autismo {
+        max-width: 90%;
+    }
+
+    #sobre-autismo h2 {
+        font-size: 28px;
+        padding-bottom: 30px;
+    }
+
+    #sobre-autismo p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-3 {
+        padding: 30px 10px;
+    }
+
+    #sobre-autismo h2 {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    #sobre-autismo p {
+        font-size: 14px;
+    }
 }
 
 #btnToggle {
@@ -247,6 +285,7 @@ ul {
     justify-content: center;
     align-items: center;
     padding: 30px;
+    padding-bottom: 60px;
 }
 
 .fale-conosco {
