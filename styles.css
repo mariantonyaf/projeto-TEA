@@ -74,78 +74,114 @@ header .title-desktop nav ul a {
 
 .container-wrapper {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-
-.img img {
-    width: 100%;
-    max-width: 550px;
-    height: auto;
-    border-radius: 10px;
-}
-
-@media (max-width: 768px) {
-    .img img {
-        width: 80%;
-    }
-
-    .container-wrapper {
-        flex-direction: column;
-        text-align: center;
-    }
+    gap: 30px;
+    padding: 50px;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
 }
 
 .container-2 {
-    width: 300px;
-    margin-right: 0px;
-    margin-right: auto;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    text-align: justify;
+    max-width: 55%;
+    box-sizing: border-box;
 }
 
-h2 {
+.container-2 h2 {
+    text-align: left;
     font-size: 35px;
-    margin-bottom: 7px;
-    color: #003c7c;
+}
+
+.container-2 p {
+    margin-top: 10px;
+}
+
+.img {
+    flex-shrink: 0;
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container-wrapper {
+        padding: 30px;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .container-2 {
+        max-width: 90%;
+        margin-right: 0; 
+    }
+
+    .img {
+        max-width: 80%;
+    }
+
+    .container-2 h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-wrapper {
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .container-2 {
+        max-width: 90%;
+        margin-right: 0;
+    }
+
+    .img {
+        max-width: 80%;
+    }
+
+    .container-2 h2 {
+        font-size: 24px;
+    }
 }
 
 .container-3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 100px;
 }
 
 #sobre-autismo {
     width: 100%;
-    max-width: 800px; /* Limita a largura para não ficar muito largo */
-    text-align: justify; /* Justifica o texto */
-    margin: 0 auto; /* Centraliza a seção */
+    max-width: 1000px;
+    text-align: justify;
+    margin: 0 auto; 
 }
 
 #sobre-autismo h2 {
-    text-align: center; /* Centraliza o título */
+    padding-bottom: 50px;
+    text-align: center;
 }
 
 #sobre-autismo p {
-    text-align: justify; /* Justifica os parágrafos */
-    margin-bottom: 15px; /* Espaçamento entre os parágrafos */
+    text-align: justify;
+    margin-bottom: 15px;
 }
 
 #maisTexto {
-    display: none; /* Oculta o texto extra inicialmente */
+    display: none;
 }
 
 #btnToggle {
     display: block;
-    margin: 20px auto 0; /* Centraliza o botão */
+    margin: 20px auto 0;
 }
 
 .container-4 {
