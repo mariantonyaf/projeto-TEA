@@ -183,40 +183,127 @@ ul {
     }
 }
 
+.container-fale-conosco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
 
-.autismo-wrapper {
+.fale-conosco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-contato {
     display: flex;
     align-items: center;
-    gap: 20px;
 }
 
-.autismo-img img {
-    width: 100%;
-    max-width: 550px;
-    height: auto;
-    border-radius: 10px;
+.icone-telefone {
+    background: url('icons8-telefone-32.png') no-repeat center;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
 }
 
-#sobre-autismo {
-    width: 50%;
+.texto-contato h3 {
+    font-size: 1.2rem;
+    color: #003366;
+}
+
+.texto-contato p {
+    color: #666;
+}
+
+.redes-sociais {
+    display: flex;
+    align-items: center;
+}
+
+.redes-sociais h3 {
+    font-size: 1.2rem;
+    color: #003366;
+    margin-right: 10px;
+}
+
+.redes-sociais a {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 8px;
+    background: #e3e3e3;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.redes-sociais a:hover {
+    background: #d1d1d1;
+}
+
+.icone-instagram {
+    background: url('icons8-instagram-logo-32.png') no-repeat center;
+    background-size: contain;
+    margin-bottom: -5px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.icone-facebook {
+    background: url('icons8-facebook-novo-32.png') no-repeat center;
+    background-size: contain;
+    margin-bottom: -5px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+
+.footer {
+    background: #0055A4;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-top {
+    display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+    background: #0055A4;
 }
 
-@media (max-width: 768px) {
-    .autismo-wrapper {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .autismo-img img {
-        width: 80%;
-    }
-
-    #sobre-autismo {
-        width: 100%;
-    }
+.logo {
+    height: 50px;
 }
+
+.footer-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background: #004080;
+    padding: 10px;
+    font-size: 14px;
+}
+
+
+
 
 
 
