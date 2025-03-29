@@ -117,11 +117,35 @@ h2 {
 }
 
 .container-3 {
-    width: 100%;
-    max-width: 1200px;
-    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
-    border-radius: 10px;
+}
+
+#sobre-autismo {
+    width: 100%;
+    max-width: 800px; /* Limita a largura para não ficar muito largo */
+    text-align: justify; /* Justifica o texto */
+    margin: 0 auto; /* Centraliza a seção */
+}
+
+#sobre-autismo h2 {
+    text-align: center; /* Centraliza o título */
+}
+
+#sobre-autismo p {
+    text-align: justify; /* Justifica os parágrafos */
+    margin-bottom: 15px; /* Espaçamento entre os parágrafos */
+}
+
+#maisTexto {
+    display: none; /* Oculta o texto extra inicialmente */
+}
+
+#btnToggle {
+    display: block;
+    margin: 20px auto 0; /* Centraliza o botão */
 }
 
 .container-4 {
