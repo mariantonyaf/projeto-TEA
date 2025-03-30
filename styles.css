@@ -228,6 +228,12 @@ header .title-desktop nav ul a {
     margin-bottom: 15px;
 }
 
+#link {
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+}
+
 #maisTexto {
     display: none;
 }
@@ -270,8 +276,8 @@ header .title-desktop nav ul a {
     border-radius: 10px;
 }
 
-h1, h3 {
-    color: #333;
+h1, h3, h2 {
+    color: #003366;
 }
 
 .documentos-container {
@@ -288,6 +294,10 @@ h1, h3 {
     padding: 20px;
     width: 48%;
     text-align: left;
+}
+
+li {
+    color: gray;
 }
 
 ul {
