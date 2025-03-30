@@ -170,7 +170,7 @@ header .title-desktop nav ul a {
     }
 
     .container-2 {
-        max-width: 90%;
+        max-width: 97%;
         margin-right: 0; 
     }
 
@@ -207,7 +207,7 @@ header .title-desktop nav ul a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 70px;
 }
 
 #sobre-autismo {
@@ -219,7 +219,6 @@ header .title-desktop nav ul a {
 
 #sobre-autismo h2 {
     color: #003366;
-    font-size: clamp(22px, 4vw, 35px);
     padding-bottom: 50px;
     text-align: center;
 }
@@ -239,31 +238,22 @@ header .title-desktop nav ul a {
     }
 
     #sobre-autismo {
-        max-width: 90%;
+        max-width: 95%;
     }
 
     #sobre-autismo h2 {
-        font-size: 28px;
         padding-bottom: 30px;
     }
 
-    #sobre-autismo p {
-        font-size: 16px;
-    }
 }
 
 @media (max-width: 480px) {
     .container-3 {
-        padding: 30px 10px;
+        padding: 20px 30px;
     }
 
     #sobre-autismo h2 {
-        font-size: 24px;
         padding-bottom: 20px;
-    }
-
-    #sobre-autismo p {
-        font-size: 14px;
     }
 }
 
