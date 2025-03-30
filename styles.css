@@ -28,6 +28,10 @@ body {
     justify-content: space-between;
 }
 
+section {
+    color: rgb(88, 88, 88);
+}
+
 header .logo {
     display: flex;
     justify-content: center;
@@ -226,11 +230,12 @@ header .title-desktop nav ul a {
 #sobre-autismo p {
     text-align: justify;
     margin-bottom: 15px;
+    color: rgb(88, 88, 88);
 }
 
 #link {
     text-decoration: none;
-    color: gray;
+    color: rgb(168, 168, 168);
     cursor: pointer;
 }
 
