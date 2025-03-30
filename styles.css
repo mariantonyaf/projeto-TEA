@@ -219,7 +219,7 @@ header .title-desktop nav ul a {
 
 #sobre-autismo h2 {
     color: #003366;
-    font-size: 35px;
+    font-size: clamp(22px, 4vw, 35px);
     padding-bottom: 50px;
     text-align: center;
 }
