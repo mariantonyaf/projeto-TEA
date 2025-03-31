@@ -1,154 +1,256 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Carteirinha TEA</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="icons-autismo-32.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="public/icons-autismo-32.png"
+      type="image/x-icon"
+    />
 
-    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Boldonse&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="container-1">
-        <div class="interface">
-            <!-- Agrupar logo e Carteirinha TEA -->
-            <div class="left-group">
-                <section class="logo">
-                    <img src="icons8-autismo-94.png" alt="Logotipo do site">
-                </section>
-    
-                <section class="title-desktop">
-                    <nav>
-                        <ul>
-                            <li><a href="#">Carteirinha TEA</a></li>
-                        </ul>
-                    </nav>
-                </section>
-            </div>
-    
-            <!-- Botão de download à direita -->
-            <section class="download-btn">
-                <a href="Formulário.pdf" download="Requerimento.pdf">
-                    <button>Baixar Formulário</button>
-                </a>
-            </section>
+      <div class="interface">
+        <!-- Agrupar logo e Carteirinha TEA -->
+        <div class="left-group">
+          <section class="logo">
+            <img src="public/icons8-autismo-94.png" alt="Logotipo do site" />
+          </section>
+
+          <section class="title-desktop">
+            <nav>
+              <ul>
+                <li><a href="#">Carteirinha TEA</a></li>
+              </ul>
+            </nav>
+          </section>
         </div>
-    </header>    
+
+        <section
+          class="download-container"
+          style="
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          "
+        >
+          <!-- Botão à esquerda -->
+          <section class="download-btn-left">
+            <a href="#">
+              <button
+                style="padding: 10px 20px; font-size: 16px; cursor: pointer"
+              >
+                Preencher Formulário
+              </button>
+            </a>
+          </section>
+
+          <!-- Botão à direita -->
+          <section class="download-btn-header">
+            <a href="archives/Formulário.pdf" download="Requerimento.pdf">
+              <button
+                style="padding: 10px 20px; font-size: 16px; cursor: pointer"
+              >
+                Baixar Formulário
+              </button>
+            </a>
+          </section>
+        </section>
+      </div>
+    </header>
 
     <div class="container-wrapper">
-        <div class="container-2">
-
-            <section>
-                <h2>Bem-vindo(a) ao Sistema da Carteirinha do Autista!</h2>
-                <p>A Carteira Municipal de Identificação da Pessoa com Transtorno do Espectro Autista (CMIPTEA) é uma ferramenta importante para garantir a prioridade no atendimento e o acesso integral aos serviços públicos e privados, especialmente nas áreas de saúde, educação e assistência social.</p>
-                <p>Para solicitar sua CMIPTEA, é necessário apresentar os documentos e preencher o requerimento, que pode ser baixado diretamente neste site. O processo deve ser feito presencialmente no CREAS.</p>
-            </section>            
-    
-        </div>
-    
-        <div class="img">
-            <img src="body-img.png" alt="Duas crianças">
-        </div>
-    </div>    
-
-    <div class="container-3">
-        <section id="sobre-autismo">
-            <h2>O que é o Autismo?</h2>
-            <p>O Transtorno do Espectro Autista (TEA) é uma condição do neurodesenvolvimento caracterizada por dificuldades na comunicação, interação social e pela presença de comportamentos repetitivos e interesses restritos. Essas manifestações geralmente surgem nos primeiros três anos de vida e variam significativamente entre os indivíduos.</p>
-            
-            <p id="maisTexto">
-                Principais Características do TEA:<br><br>
-                - Déficits na Comunicação e Interação Social: Indivíduos com TEA podem enfrentar desafios na comunicação verbal e não verbal, incluindo dificuldades em iniciar ou manter conversas, interpretar expressões faciais e compreender nuances sociais.<br>
-                - Comportamentos Repetitivos e Interesses Restritos: É comum a exibição de comportamentos estereotipados, como movimentos repetitivos (por exemplo, balançar as mãos), apego a rotinas específicas e interesses intensos em tópicos particulares.<br>
-                - Alterações Sensoriais: Muitas pessoas com TEA apresentam respostas sensoriais atípicas, podendo ser hipersensíveis ou hipossensíveis a estímulos como sons, luzes ou texturas.<br>
-                - Causas e Diagnóstico: As causas do TEA ainda não são totalmente compreendidas, mas pesquisas indicam uma combinação de fatores genéticos e ambientais. O diagnóstico é baseado na observação do comportamento e no histórico do indivíduo, podendo ser complementado por avaliações multidisciplinares.<br>
-                - Intervenção e Tratamento: Embora o autismo não tenha cura, intervenções precoces e personalizadas, como terapias comportamentais e ocupacionais, podem melhorar significativamente a qualidade de vida e promover maior independência e inclusão social.<br><br>
-    
-                <strong id="link">Fonte:</strong> <a href="https://www.gov.br/saude/pt-br/assuntos/noticias/2022/abril/tea-saiba-o-que-e-o-transtorno-do-espectro-autista-e-como-o-sus-tem-dado-assistencia-a-pacientes-e-familiares" target="_blank" id="link">Ministério da Saúde</a>
-            </p>
-    
-            <button id="btnToggle" class="btn" onclick="toggleTexto()">Ler mais</button>
+      <div class="container-2">
+        <section>
+          <h2>Bem-vindo(a) ao Sistema da Carteirinha do Autista!</h2>
+          <p>
+            A Carteira Municipal de Identificação da Pessoa com Transtorno do
+            Espectro Autista (CMIPTEA) é uma ferramenta importante para garantir
+            a prioridade no atendimento e o acesso integral aos serviços
+            públicos e privados, especialmente nas áreas de saúde, educação e
+            assistência social.
+          </p>
+          <p>
+            Para solicitar sua CMIPTEA, é necessário apresentar os documentos e
+            preencher o requerimento, que pode ser baixado diretamente neste
+            site. O processo pode ser feito preenchendo o formulário abaixo ou
+            presencialmente no CREAS.
+          </p>
         </section>
-    </div>    
-    
+      </div>
 
-    <div class="container-4">
-        <section id="documentos">
-            <h2>Documentos Necessários</h2>
-            <div class="documentos-container">
-                <div class="card">
-                    <h3>Para o Requerente</h3>
-                    <ul>
-                        <li>Requerimento;</li>
-                        <li>Carteira de identidade civil ou certidão de nascimento;</li>
-                        <li>CPF;</li>
-                        <li>Comprovante de residência;</li>
-                        <li>Número de telefone;</li>
-                        <li>Laudo médico com CID e CRM do médico;</li>
-                        <li>Exame de tipagem sanguínea;</li>
-                        <li>Foto 3x4 atualizada.</li>
-                    </ul>
-                </div>
-                <div class="card">
-                    <h3>Para o Cuidador</h3>
-                    <ul>
-                        <li>Carteira de identidade civil;</li>
-                        <li>CPF;</li>
-                        <li>Comprovante de residência;</li>
-                        <li>Telefone e e-mail do responsável.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+      <div class="img">
+        <img src="public/body-img.png" alt="Duas crianças" />
+      </div>
     </div>
 
-    <div class="download-rodape">
+    <div class="container-3">
+      <section id="sobre-autismo">
+        <h2>O que é o Autismo?</h2>
+        <p>
+          O Transtorno do Espectro Autista (TEA) é uma condição do
+          neurodesenvolvimento caracterizada por dificuldades na comunicação,
+          interação social e pela presença de comportamentos repetitivos e
+          interesses restritos. Essas manifestações geralmente surgem nos
+          primeiros três anos de vida e variam significativamente entre os
+          indivíduos.
+        </p>
+
+        <p id="maisTexto">
+          Principais Características do TEA:<br /><br />
+          - Déficits na Comunicação e Interação Social: Indivíduos com TEA podem
+          enfrentar desafios na comunicação verbal e não verbal, incluindo
+          dificuldades em iniciar ou manter conversas, interpretar expressões
+          faciais e compreender nuances sociais.<br />
+          - Comportamentos Repetitivos e Interesses Restritos: É comum a
+          exibição de comportamentos estereotipados, como movimentos repetitivos
+          (por exemplo, balançar as mãos), apego a rotinas específicas e
+          interesses intensos em tópicos particulares.<br />
+          - Alterações Sensoriais: Muitas pessoas com TEA apresentam respostas
+          sensoriais atípicas, podendo ser hipersensíveis ou hipossensíveis a
+          estímulos como sons, luzes ou texturas.<br />
+          - Causas e Diagnóstico: As causas do TEA ainda não são totalmente
+          compreendidas, mas pesquisas indicam uma combinação de fatores
+          genéticos e ambientais. O diagnóstico é baseado na observação do
+          comportamento e no histórico do indivíduo, podendo ser complementado
+          por avaliações multidisciplinares.<br />
+          - Intervenção e Tratamento: Embora o autismo não tenha cura,
+          intervenções precoces e personalizadas, como terapias comportamentais
+          e ocupacionais, podem melhorar significativamente a qualidade de vida
+          e promover maior independência e inclusão social.<br /><br />
+
+          <strong id="link">Fonte:</strong>
+          <a
+            href="https://www.gov.br/saude/pt-br/assuntos/noticias/2022/abril/tea-saiba-o-que-e-o-transtorno-do-espectro-autista-e-como-o-sus-tem-dado-assistencia-a-pacientes-e-familiares"
+            target="_blank"
+            id="link"
+            >Ministério da Saúde</a
+          >
+        </p>
+
+        <button id="btnToggle" class="btn" onclick="toggleTexto()">
+          Ler mais
+        </button>
+      </section>
+    </div>
+
+    <div class="container-4">
+      <section id="documentos">
+        <h2>Documentos Necessários</h2>
+        <div class="documentos-container">
+          <div class="card">
+            <h3>Para o Requerente</h3>
+            <ul>
+              <li>Requerimento;</li>
+              <li>Carteira de identidade civil ou certidão de nascimento;</li>
+              <li>CPF;</li>
+              <li>Comprovante de residência;</li>
+              <li>Número de telefone;</li>
+              <li>Laudo médico com CID e CRM do médico;</li>
+              <li>Exame de tipagem sanguínea;</li>
+              <li>Foto 3x4 atualizada;</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Para o Cuidador</h3>
+            <ul>
+              <li>Carteira de identidade civil;</li>
+              <li>CPF;</li>
+              <li>Comprovante de residência;</li>
+              <li>Número de telefone;</li>
+              <li>E-mail do responsável;</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="download-container">
+      <div class="download-rodape">
         <section class="download-btn">
-            <a href="Formulário.pdf" download="Requerimento.pdf">
-                <button>Baixar Formulário</button>
-            </a>
+          <a href="#">
+            <button>Preencher Formulário</button>
+          </a>
         </section>
+      </div>
+      <div class="download-rodape">
+        <section class="download-btn">
+          <a href="archives/Formulário.pdf" download="Requerimento.pdf">
+            <button>Baixar Formulário</button>
+          </a>
+        </section>
+      </div>
     </div>
 
     <div class="container-fale-conosco">
-        <div class="fale-conosco">
-
-            <div class="info-contato">
-                <img src="icons8-phone-96.png" alt="Telefone" class="icone-telefone">
-                <div class="texto-contato">
-                    <h3>Fale conosco</h3>
-                    <p>Em caso de dúvidas entre em contato conosco: (27) 99922-5231</p>
-                </div>
-            </div>
-
-            <div class="redes-sociais">
-                <h3>Nossas redes sociais</h3>
-                <a href="https://www.instagram.com/prefeituradepancas/" target="_blank">
-                    <img src="icons8-instagram-logo-96.png" alt="Instagram" class="icone-rede">
-                </a>
-                <a href="https://www.facebook.com/prefeituradepancas/" target="_blank">
-                    <img src="icons8-facebook-novo-96.png" alt="Facebook" class="icone-rede">
-                </a>
-            </div>
-
+      <div class="fale-conosco">
+        <div class="info-contato">
+          <img
+            src="public/icons8-phone-96.png"
+            alt="Telefone"
+            class="icone-telefone"
+          />
+          <div class="texto-contato">
+            <h3>Fale conosco</h3>
+            <p>
+              Em caso de dúvidas entre em contato conosco: <br />(27) 99922-5231
+            </p>
+          </div>
         </div>
-    </div>    
+
+        <div class="redes-sociais">
+          <a
+            href="https://www.instagram.com/prefeituradepancas/"
+            target="_blank"
+          >
+            <img
+              src="public/icons8-instagram-logo-96.png"
+              alt="Instagram"
+              class="icone-rede"
+            />
+          </a>
+          <a
+            href="https://www.facebook.com/prefeituradepancas/"
+            target="_blank"
+          >
+            <img
+              src="public/icons8-facebook-novo-96.png"
+              alt="Facebook"
+              class="icone-rede"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
 
     <footer class="footer">
-        <div class="footer-top">
-            <img src="logotipo_prefeitura_pancas.png" alt="Prefeitura de Pancas" class="logo">
-            <nav class="footer-nav">
-                <a href="https://www.pancas.es.gov.br/" target="_blank">Saiba mais</a>
-            </nav>
-        </div>
-        <div class="footer-bottom">
-            <p>© Prefeitura Municipal de Pancas</p>
-        </div>
-    </footer>    
-    
-    <script src="script.js"></script>
-</body>
+      <div class="footer-top">
+        <img
+          src="public/logotipo_prefeitura_pancas.png"
+          alt="Prefeitura de Pancas"
+          class="logo"
+        />
+        <nav class="footer-nav">
+          <a href="https://www.pancas.es.gov.br/" target="_blank">Saiba mais</a>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>© Prefeitura Municipal de Pancas</p>
+      </div>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+  </body>
 </html>
